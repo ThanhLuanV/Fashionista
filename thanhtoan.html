@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>Thanh-Ton - exported project</title>
+    <meta property="og:title" content="Thanh-Ton - exported project" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}pre {  white-space: normal;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./thanh-ton.css" rel="stylesheet" />
+
+      <div class="thanh-ton-container10">
+        <div class="thanh-ton-thanh-ton">
+          <div class="thanh-ton-container11">
+            <div class="thanh-ton-main">
+              <div class="thanh-ton-container12">
+                <div class="thanh-ton-heading1">
+                  <span class="thanh-ton-text10">Thanh toán</span>
+                </div>
+                <div class="thanh-ton-form">
+                  <div class="thanh-ton-container13">
+                    <div class="thanh-ton-background-shadow1">
+                      <div class="thanh-ton-heading21">
+                        <span class="thanh-ton-text11">
+                          Thông tin giao hàng
+                        </span>
+                      </div>
+                      <div class="thanh-ton-container14">
+                        <div class="thanh-ton-container15">
+                          <div class="thanh-ton-label1">
+                            <span class="thanh-ton-text12">Họ và tên</span>
+                          </div>
+                          <div class="thanh-ton-input1">
+                            <div class="thanh-ton-container16">
+                              <span class="thanh-ton-text13">Nguyễn Văn A</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="thanh-ton-container17">
+                          <div class="thanh-ton-label2">
+                            <span class="thanh-ton-text14">Số điện thoại</span>
+                          </div>
+                          <div class="thanh-ton-input2">
+                            <div class="thanh-ton-container18">
+                              <span class="thanh-ton-text15">0901234567</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="thanh-ton-container19">
+                          <div class="thanh-ton-label3">
+                            <span class="thanh-ton-text16">Email</span>
+                          </div>
+                          <div class="thanh-ton-input3">
+                            <div class="thanh-ton-container20">
+                              <span class="thanh-ton-text17">
+                                email@example.com
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="thanh-ton-container21">
+                          <div class="thanh-ton-label4">
+                            <span class="thanh-ton-text18">Địa chỉ</span>
+                          </div>
+                          <div class="thanh-ton-input4">
+                            <div class="thanh-ton-container22">
+                              <span class="thanh-ton-text19">
+                                123 Đường ABC
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="thanh-ton-container23">
+                          <div class="thanh-ton-label5">
+                            <span class="thanh-ton-text20">Thành phố</span>
+                          </div>
+                          <div class="thanh-ton-input5">
+                            <div class="thanh-ton-container24">
+                              <span class="thanh-ton-text21">Hồ Chí Minh</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="thanh-ton-container25">
+                          <div class="thanh-ton-label6">
+                            <span class="thanh-ton-text22">Mã bưu chính</span>
+                          </div>
+                          <div class="thanh-ton-input6">
+                            <div class="thanh-ton-container26">
+                              <span class="thanh-ton-text23">700000</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="thanh-ton-background-shadow2">
+                      <div class="thanh-ton-heading22">
+                        <span class="thanh-ton-text24">
+                          Phương thức thanh toán
+                        </span>
+                      </div>
+                      <div class="thanh-ton-container27">
+                        <div class="thanh-ton-label7">
+                          <div class="thanh-ton-input7">
+                            <img
+                              src="public/inputchecked1926-eck5-200h.png"
+                              alt="Inputchecked1926"
+                              class="thanh-ton-inputchecked"
+                            />
+                          </div>
+                          <div class="thanh-ton-margin1">
+                            <div class="thanh-ton-container28">
+                              <img
+                                src="public/component11926-vuw.svg"
+                                alt="Component11926"
+                                class="thanh-ton-component11"
+                              />
+                              <div class="thanh-ton-container29">
+                                <div class="thanh-ton-container30">
+                                  <span class="thanh-ton-text25">
+                                    Thanh toán khi nhận hàng (COD)
+                                  </span>
+                                </div>
+                                <div class="thanh-ton-container31">
+                                  <span class="thanh-ton-text26">
+                                    Thanh toán khi nhận được hàng
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="thanh-ton-label8">
+                          <img
+                            src="public/input1926-hupq-200h.png"
+                            alt="Input1926"
+                            class="thanh-ton-input8"
+                          />
+                          <div class="thanh-ton-margin2">
+                            <div class="thanh-ton-container32">
+                              <img
+                                src="public/component11926-1g3.svg"
+                                alt="Component11926"
+                                class="thanh-ton-component12"
+                              />
+                              <div class="thanh-ton-container33">
+                                <div class="thanh-ton-container34">
+                                  <span class="thanh-ton-text27">
+                                    Thẻ tín dụng/Ghi nợ
+                                  </span>
+                                </div>
+                                <div class="thanh-ton-container35">
+                                  <span class="thanh-ton-text28">
+                                    Visa, Mastercard, JCB
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="thanh-ton-container36">
+                    <div class="thanh-ton-background-shadow3">
+                      <div class="thanh-ton-heading23">
+                        <span class="thanh-ton-text29">Tóm tắt đơn hàng</span>
+                      </div>
+                      <div class="thanh-ton-container37">
+                        <div class="thanh-ton-container38">
+                          <div class="thanh-ton-container39">
+                            <span class="thanh-ton-text30">
+                              Đầm Hồng Thanh Lịch x1
+                            </span>
+                          </div>
+                          <div class="thanh-ton-container40">
+                            <span class="thanh-ton-text31">450.000 VNĐ</span>
+                          </div>
+                        </div>
+                        <div class="thanh-ton-container41">
+                          <div class="thanh-ton-container42">
+                            <span class="thanh-ton-text32">
+                              Áo Kiểu Trắng Cổ Điển x2
+                            </span>
+                          </div>
+                          <div class="thanh-ton-container43">
+                            <span class="thanh-ton-text33">500.000 VNĐ</span>
+                          </div>
+                        </div>
+                        <div class="thanh-ton-container44">
+                          <div class="thanh-ton-container45">
+                            <span class="thanh-ton-text34">
+                              Áo Khoác Dạ Be x1
+                            </span>
+                          </div>
+                          <div class="thanh-ton-container46">
+                            <span class="thanh-ton-text35">799.000 VNĐ</span>
+                          </div>
+                        </div>
+                      </div>
+                      <img
+                        src="public/horizontaldivider1926-67hs-400w.png"
+                        alt="HorizontalDivider1926"
+                        class="thanh-ton-horizontal-divider"
+                      />
+                      <div class="thanh-ton-container47">
+                        <div class="thanh-ton-container48">
+                          <div class="thanh-ton-container49">
+                            <span class="thanh-ton-text36">Tạm tính</span>
+                          </div>
+                          <div class="thanh-ton-container50">
+                            <span class="thanh-ton-text37">1.749.000 VNĐ</span>
+                          </div>
+                        </div>
+                        <div class="thanh-ton-container51">
+                          <div class="thanh-ton-container52">
+                            <span class="thanh-ton-text38">Phí vận chuyển</span>
+                          </div>
+                          <div class="thanh-ton-container53">
+                            <span class="thanh-ton-text39">30.000 VNĐ</span>
+                          </div>
+                        </div>
+                        <div class="thanh-ton-horizontal-border1">
+                          <div class="thanh-ton-container54">
+                            <div class="thanh-ton-container55">
+                              <span class="thanh-ton-text40">Tổng cộng</span>
+                            </div>
+                            <div class="thanh-ton-container56">
+                              <span class="thanh-ton-text41">
+                                1.779.000 VNĐ
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <button class="thanh-ton-button1">
+                        <span class="thanh-ton-text42">Đặt hàng</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="thanh-ton-footermargin">
+              <div class="thanh-ton-footer">
+                <div class="thanh-ton-container57">
+                  <div class="thanh-ton-container58">
+                    <div class="thanh-ton-container59">
+                      <div class="thanh-ton-heading31">
+                        <span class="thanh-ton-text43">Thông tin</span>
+                      </div>
+                      <div class="thanh-ton-list1">
+                        <div class="thanh-ton-item1">
+                          <span class="thanh-ton-text44">
+                            Câu chuyện của chúng tôi
+                          </span>
+                        </div>
+                        <div class="thanh-ton-item2">
+                          <span class="thanh-ton-text45">Tuyển dụng</span>
+                        </div>
+                        <div class="thanh-ton-item3">
+                          <span class="thanh-ton-text46">
+                            Phát triển bền vững
+                          </span>
+                        </div>
+                        <div class="thanh-ton-item4">
+                          <span class="thanh-ton-text47">Báo chí</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="thanh-ton-container60">
+                      <div class="thanh-ton-heading32">
+                        <span class="thanh-ton-text48">Hỗ trợ khách hàng</span>
+                      </div>
+                      <div class="thanh-ton-list2">
+                        <div class="thanh-ton-item5">
+                          <span class="thanh-ton-text49">Liên hệ</span>
+                        </div>
+                        <div class="thanh-ton-item6">
+                          <span class="thanh-ton-text50">
+                            Giao hàng &amp; Đổi trả
+                          </span>
+                        </div>
+                        <div class="thanh-ton-item7">
+                          <span class="thanh-ton-text51">
+                            Hướng dẫn chọn size
+                          </span>
+                        </div>
+                        <div class="thanh-ton-item8">
+                          <span class="thanh-ton-text52">
+                            Câu hỏi thường gặp
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="thanh-ton-container61">
+                      <div class="thanh-ton-heading33">
+                        <span class="thanh-ton-text53">Theo dõi chúng tôi</span>
+                      </div>
+                      <div class="thanh-ton-container62">
+                        <button class="thanh-ton-button2">
+                          <img
+                            src="public/component11927-11ii.svg"
+                            alt="Component11927"
+                            class="thanh-ton-component13"
+                          />
+                        </button>
+                        <button class="thanh-ton-button3">
+                          <img
+                            src="public/component11927-kw1.svg"
+                            alt="Component11927"
+                            class="thanh-ton-component14"
+                          />
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="thanh-ton-horizontal-border2">
+                    <div class="thanh-ton-container63">
+                      <span class="thanh-ton-text54">
+                        © 2025 Fashionista. Bảo lưu mọi quyền.
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="thanh-ton-header">
+              <div class="thanh-ton-container64">
+                <div class="thanh-ton-container65">
+                  <span class="thanh-ton-text55">Fashionista</span>
+                </div>
+                <div class="thanh-ton-nav">
+                  <button class="thanh-ton-button4">
+                    <span class="thanh-ton-text56">Trang chủ</span>
+                  </button>
+                  <button class="thanh-ton-button5">
+                    <span class="thanh-ton-text57">Cửa hàng</span>
+                  </button>
+                  <button class="thanh-ton-button6">
+                    <span class="thanh-ton-text58">Giới thiệu</span>
+                  </button>
+                  <button class="thanh-ton-button7">
+                    <span class="thanh-ton-text59">Liên hệ</span>
+                  </button>
+                </div>
+                <div class="thanh-ton-container66">
+                  <button class="thanh-ton-button8">
+                    <img
+                      src="public/component11927-l8b3.svg"
+                      alt="Component11927"
+                      class="thanh-ton-component15"
+                    />
+                  </button>
+                  <button class="thanh-ton-button9">
+                    <img
+                      src="public/component11927-14un9.svg"
+                      alt="Component11927"
+                      class="thanh-ton-component16"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="https://play.teleporthq.io/signup" class="thanh-ton-link">
+          <div aria-label="Sign up to TeleportHQ" class="thanh-ton-container67">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 19 21"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="thanh-ton-icon1"
+            >
+              <path
+                d="M9.1017 4.64355H2.17867C0.711684 4.64355 -0.477539 5.79975 -0.477539 7.22599V13.9567C-0.477539 15.3829 0.711684 16.5391 2.17867 16.5391H9.1017C10.5687 16.5391 11.7579 15.3829 11.7579 13.9567V7.22599C11.7579 5.79975 10.5687 4.64355 9.1017 4.64355Z"
+                fill="#B23ADE"
+              ></path>
+              <path
+                d="M10.9733 12.7878C14.4208 12.7878 17.2156 10.0706 17.2156 6.71886C17.2156 3.3671 14.4208 0.649963 10.9733 0.649963C7.52573 0.649963 4.73096 3.3671 4.73096 6.71886C4.73096 10.0706 7.52573 12.7878 10.9733 12.7878Z"
+                fill="#FF5C5C"
+              ></path>
+              <path
+                d="M17.7373 13.3654C19.1497 14.1588 19.1497 15.4634 17.7373 16.2493L10.0865 20.5387C8.67402 21.332 7.51855 20.6836 7.51855 19.0968V10.5141C7.51855 8.92916 8.67402 8.2807 10.0865 9.07221L17.7373 13.3654Z"
+                fill="#2874DE"
+              ></path>
+            </svg>
+            <span class="thanh-ton-text60">Built in TeleportHQ</span>
+          </div>
+        </a>
+      </div>
+      <link
+        rel="canonical"
+        href="https://shop-quan-ao-desktop-ia3zsr.teleporthq.app/thanh-ton"
+      />
+    </div>
+  </body>
+</html>

@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>Gii-thiu - exported project</title>
+    <meta property="og:title" content="Gii-thiu - exported project" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}pre {  white-space: normal;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./gii-thiu.css" rel="stylesheet" />
+
+      <div class="gii-thiu-container10">
+        <div class="gii-thiu-giithiu">
+          <div class="gii-thiu-container11">
+            <div class="gii-thiu-main">
+              <div class="gii-thiu-section1">
+                <div class="gii-thiu-container12">
+                  <div class="gii-thiu-our-story"></div>
+                </div>
+                <div class="gii-thiu-container13">
+                  <div class="gii-thiu-heading21">
+                    <span
+                      class="gii-thiu-text10 tweetIcy-86221091.figma.siteSemanticHeading2"
+                    >
+                      Câu chuyện của chúng tôi
+                    </span>
+                  </div>
+                  <div class="gii-thiu-container14">
+                    <span
+                      class="gii-thiu-text11 tweetIcy-86221091.figma.siteSegoeUIRegular1"
+                    >
+                      <span>
+                        Được thành lập vào năm 2020, Fashionista ra đời từ niềm
+                        đam mê tạo ra những
+                      </span>
+                      <br />
+                      <span>
+                        món đồ thời trang vượt thời gian, trao quyền cho mỗi cá
+                        nhân thể hiện phong
+                      </span>
+                      <br />
+                      <span>
+                        cách riêng của mình. Chúng tôi tin rằng thời trang không
+                        chỉ là quần áo—đó là
+                      </span>
+                      <br />
+                      <span>
+                        một hình thức tự thể hiện, sự tự tin và sáng tạo.
+                      </span>
+                    </span>
+                  </div>
+                  <div class="gii-thiu-container15">
+                    <span
+                      class="gii-thiu-text19 tweetIcy-86221091.figma.siteSegoeUIRegular1"
+                    >
+                      <span>
+                        Hành trình của chúng tôi bắt đầu với một tầm nhìn đơn
+                        giản: làm cho quần áo
+                      </span>
+                      <br />
+                      <span>
+                        chất lượng cao, phong cách có thể tiếp cận được với mọi
+                        người. Ngày nay, chúng
+                      </span>
+                      <br />
+                      <span>
+                        tôi tự hào phục vụ hàng nghìn khách hàng yêu thời trang
+                        trên toàn thế giới, cung
+                      </span>
+                      <br />
+                      <span>
+                        cấp các bộ sưu tập được tuyển chọn kỹ lưỡng kết hợp xu
+                        hướng đương đại với sự
+                      </span>
+                      <br />
+                      <span>thanh lịch vượt thời gian.</span>
+                    </span>
+                  </div>
+                  <div class="gii-thiu-container16">
+                    <span
+                      class="gii-thiu-text29 tweetIcy-86221091.figma.siteSegoeUIRegular1"
+                    >
+                      <span>
+                        Mỗi sản phẩm trong bộ sưu tập của chúng tôi đều được lựa
+                        chọn cẩn thận để đảm
+                      </span>
+                      <br />
+                      <span>
+                        bảo tiêu chuẩn cao nhất về chất lượng, sự thoải mái và
+                        phong cách. Chúng tôi cam
+                      </span>
+                      <br />
+                      <span>
+                        kết với các thực hành thời trang bền vững và nguồn gốc
+                        đạo đức, bởi vì chúng tôi
+                      </span>
+                      <br />
+                      <span>
+                        tin vào thời trang tốt cho cảm xúc và tốt cho cộng đồng.
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="gii-thiu-section2">
+                <div class="gii-thiu-container17">
+                  <div class="gii-thiu-background1">
+                    <div class="gii-thiu-background2">
+                      <img
+                        src="public/component12664-pgfr.svg"
+                        alt="Component12664"
+                        class="gii-thiu-component11"
+                      />
+                    </div>
+                    <div class="gii-thiu-heading310">
+                      <span
+                        class="gii-thiu-text37 tweetIcy-86221091.figma.siteSemanticHeading3"
+                      >
+                        Sứ mệnh
+                      </span>
+                    </div>
+                    <div class="gii-thiu-container18">
+                      <span
+                        class="gii-thiu-text38 tweetIcy-86221091.figma.siteSegoeUIRegular1"
+                      >
+                        <span>
+                          Truyền cảm hứng về sự tự tin và tự thể hiện thông qua
+                          thời trang được
+                        </span>
+                        <br />
+                        <span>
+                          thiết kế chu đáo, chất lượng cao, tôn vinh cá tính và
+                          đón nhận sự đa dạng.
+                        </span>
+                        <br />
+                        <span>
+                          Chúng tôi nỗ lực tạo ra trải nghiệm mua sắm toàn diện,
+                          thú vị và trao
+                        </span>
+                        <br />
+                        <span>quyền cho tất cả mọi người.</span>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="gii-thiu-background3">
+                    <div class="gii-thiu-background4">
+                      <img
+                        src="public/component12665-6ogk.svg"
+                        alt="Component12665"
+                        class="gii-thiu-component12"
+                      />
+                    </div>
+                    <div class="gii-thiu-heading311">
+                      <span
+                        class="gii-thiu-text46 tweetIcy-86221091.figma.siteSemanticHeading3"
+                      >
+                        Tầm nhìn
+                      </span>
+                    </div>
+                    <div class="gii-thiu-container19">
+                      <span
+                        class="gii-thiu-text47 tweetIcy-86221091.figma.siteSegoeUIRegular1"
+                      >
+                        <span>
+                          Trở thành điểm đến hàng đầu cho những cá nhân yêu thời
+                          trang đang tìm
+                        </span>
+                        <br />
+                        <span>
+                          kiếm chất lượng, phong cách và sự bền vững. Chúng tôi
+                          hình dung một
+                        </span>
+                        <br />
+                        <span>
+                          tương lai nơi thời trang vừa đẹp vừa có trách nhiệm,
+                          nơi mỗi lần mua hàng
+                        </span>
+                        <br />
+                        <span>
+                          đều góp phần vào một thế giới bền vững và công bằng
+                          hơn.
+                        </span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="gii-thiu-section3">
+                <div class="gii-thiu-container20">
+                  <div class="gii-thiu-heading22">
+                    <span
+                      class="gii-thiu-text55 tweetIcy-86221091.figma.siteSemanticHeading2"
+                    >
+                      Đội ngũ của chúng tôi
+                    </span>
+                  </div>
+                  <div class="gii-thiu-container21">
+                    <span
+                      class="gii-thiu-text56 tweetIcy-86221091.figma.siteSemanticButton"
+                    >
+                      <span>
+                        Đội ngũ đam mê thời trang của chúng tôi luôn tận tâm
+                        mang đến cho bạn trải nghiệm mua
+                      </span>
+                      <br />
+                      <span>sắm tốt nhất và xu hướng mới nhất.</span>
+                    </span>
+                  </div>
+                </div>
+                <div class="gii-thiu-container22">
+                  <div class="gii-thiu-background-shadow1">
+                    <div class="gii-thiu-container23">
+                      <div class="gii-thiu-nguyn-minh-anh"></div>
+                    </div>
+                    <div class="gii-thiu-container24">
+                      <div class="gii-thiu-heading312">
+                        <span
+                          class="gii-thiu-text60 tweetIcy-86221091.figma.siteSemanticHeading31"
+                        >
+                          Nguyễn Thành Luân
+                        </span>
+                      </div>
+                      <div class="gii-thiu-container25">
+                        <span
+                          class="gii-thiu-text61 tweetIcy-86221091.figma.siteSemanticButton"
+                        >
+                          Nhà sáng lập &amp; CEO
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="gii-thiu-background-shadow2">
+                    <div class="gii-thiu-container26">
+                      <div class="gii-thiu-l-thu-h"></div>
+                    </div>
+                    <div class="gii-thiu-container27">
+                      <div class="gii-thiu-heading313">
+                        <span
+                          class="gii-thiu-text62 tweetIcy-86221091.figma.siteSemanticHeading31"
+                        >
+                          Vũ Hoàng Dũng
+                        </span>
+                      </div>
+                      <div class="gii-thiu-container28">
+                        <span
+                          class="gii-thiu-text63 tweetIcy-86221091.figma.siteSemanticButton"
+                        >
+                          Trưởng phòng Thiết kế
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="gii-thiu-section4">
+                <div class="gii-thiu-container29">
+                  <div class="gii-thiu-container30">
+                    <div class="gii-thiu-heading23">
+                      <span
+                        class="gii-thiu-text64 tweetIcy-86221091.figma.siteSemanticHeading2"
+                      >
+                        Liên hệ với chúng tôi
+                      </span>
+                    </div>
+                    <div class="gii-thiu-container31">
+                      <span
+                        class="gii-thiu-text65 tweetIcy-86221091.figma.siteSemanticButton"
+                      >
+                        Có câu hỏi? Chúng tôi rất mong được nghe từ bạn.
+                      </span>
+                    </div>
+                  </div>
+                  <div class="gii-thiu-container32">
+                    <div class="gii-thiu-container33">
+                      <div class="gii-thiu-background5">
+                        <img
+                          src="public/component12670-xnu6.svg"
+                          alt="Component12670"
+                          class="gii-thiu-component13"
+                        />
+                      </div>
+                      <div class="gii-thiu-heading314">
+                        <span
+                          class="gii-thiu-text66 tweetIcy-86221091.figma.siteSemanticHeading3"
+                        >
+                          Email
+                        </span>
+                      </div>
+                      <div class="gii-thiu-container34">
+                        <span
+                          class="gii-thiu-text67 tweetIcy-86221091.figma.siteSemanticButton"
+                        >
+                          info@fashionista.vn
+                        </span>
+                      </div>
+                    </div>
+                    <div class="gii-thiu-container35">
+                      <div class="gii-thiu-background6">
+                        <img
+                          src="public/component12670-bnw.svg"
+                          alt="Component12670"
+                          class="gii-thiu-component14"
+                        />
+                      </div>
+                      <div class="gii-thiu-heading315">
+                        <span
+                          class="gii-thiu-text68 tweetIcy-86221091.figma.siteSemanticHeading3"
+                        >
+                          Điện thoại
+                        </span>
+                      </div>
+                      <div class="gii-thiu-container36">
+                        <span
+                          class="gii-thiu-text69 tweetIcy-86221091.figma.siteSemanticButton"
+                        >
+                          1900 1234
+                        </span>
+                      </div>
+                    </div>
+                    <div class="gii-thiu-container37">
+                      <div class="gii-thiu-background7">
+                        <img
+                          src="public/component12671-hro5.svg"
+                          alt="Component12671"
+                          class="gii-thiu-component15"
+                        />
+                      </div>
+                      <div class="gii-thiu-heading316">
+                        <span
+                          class="gii-thiu-text70 tweetIcy-86221091.figma.siteSemanticHeading3"
+                        >
+                          Địa chỉ
+                        </span>
+                      </div>
+                      <div class="gii-thiu-container38">
+                        <span
+                          class="gii-thiu-text71 tweetIcy-86221091.figma.siteSemanticButton"
+                        >
+                          123 Nguyễn Huệ, Q.1, TP.HCM
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="gii-thiu-section5">
+                <div class="gii-thiu-about-us"></div>
+                <img
+                  src="public/background2672-89lc-400h.png"
+                  alt="Background2672"
+                  class="gii-thiu-background8"
+                />
+                <div class="gii-thiu-container39">
+                  <div class="gii-thiu-heading1">
+                    <span
+                      class="gii-thiu-text72 tweetIcy-86221091.figma.siteSemanticHeading11"
+                    >
+                      Về thương hiệu của chúng tôi
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="gii-thiu-footermargin">
+              <div class="gii-thiu-footer">
+                <div class="gii-thiu-container40">
+                  <div class="gii-thiu-container41">
+                    <div class="gii-thiu-container42">
+                      <div class="gii-thiu-heading317">
+                        <span
+                          class="gii-thiu-text73 tweetIcy-86221091.figma.siteSemanticHeading3"
+                        >
+                          Thông tin
+                        </span>
+                      </div>
+                      <div class="gii-thiu-list1">
+                        <div class="gii-thiu-item1">
+                          <span
+                            class="gii-thiu-text74 tweetIcy-86221091.figma.siteSemanticItem"
+                          >
+                            Câu chuyện của chúng tôi
+                          </span>
+                        </div>
+                        <div class="gii-thiu-item2">
+                          <span
+                            class="gii-thiu-text75 tweetIcy-86221091.figma.siteSemanticItem"
+                          >
+                            Tuyển dụng
+                          </span>
+                        </div>
+                        <div class="gii-thiu-item3">
+                          <span
+                            class="gii-thiu-text76 tweetIcy-86221091.figma.siteSemanticItem"
+                          >
+                            Phát triển bền vững
+                          </span>
+                        </div>
+                        <div class="gii-thiu-item4">
+                          <span
+                            class="gii-thiu-text77 tweetIcy-86221091.figma.siteSemanticItem"
+                          >
+                            Báo chí
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="gii-thiu-container43">
+                      <div class="gii-thiu-heading318">
+                        <span
+                          class="gii-thiu-text78 tweetIcy-86221091.figma.siteSemanticHeading3"
+                        >
+                          Hỗ trợ khách hàng
+                        </span>
+                      </div>
+                      <div class="gii-thiu-list2">
+                        <div class="gii-thiu-item5">
+                          <span
+                            class="gii-thiu-text79 tweetIcy-86221091.figma.siteSemanticItem"
+                          >
+                            Liên hệ
+                          </span>
+                        </div>
+                        <div class="gii-thiu-item6">
+                          <span
+                            class="gii-thiu-text80 tweetIcy-86221091.figma.siteSemanticItem"
+                          >
+                            Giao hàng &amp; Đổi trả
+                          </span>
+                        </div>
+                        <div class="gii-thiu-item7">
+                          <span
+                            class="gii-thiu-text81 tweetIcy-86221091.figma.siteSemanticItem"
+                          >
+                            Hướng dẫn chọn size
+                          </span>
+                        </div>
+                        <div class="gii-thiu-item8">
+                          <span
+                            class="gii-thiu-text82 tweetIcy-86221091.figma.siteSemanticItem"
+                          >
+                            Câu hỏi thường gặp
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="gii-thiu-container44">
+                      <div class="gii-thiu-heading319">
+                        <span
+                          class="gii-thiu-text83 tweetIcy-86221091.figma.siteSemanticHeading3"
+                        >
+                          Theo dõi chúng tôi
+                        </span>
+                      </div>
+                      <div class="gii-thiu-container45">
+                        <button class="gii-thiu-button1">
+                          <img
+                            src="public/component12676-6k0n.svg"
+                            alt="Component12676"
+                            class="gii-thiu-component16"
+                          />
+                        </button>
+                        <button class="gii-thiu-button2">
+                          <img
+                            src="public/component12676-omfw.svg"
+                            alt="Component12676"
+                            class="gii-thiu-component17"
+                          />
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="gii-thiu-horizontal-border">
+                    <div class="gii-thiu-container46">
+                      <span
+                        class="gii-thiu-text84 tweetIcy-86221091.figma.siteSemanticButton"
+                      >
+                        © 2025 Fashionista. Bảo lưu mọi quyền.
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="gii-thiu-header">
+              <div class="gii-thiu-container47">
+                <div class="gii-thiu-container48">
+                  <span
+                    class="gii-thiu-text85 tweetIcy-86221091.figma.siteSemanticHeading1"
+                  >
+                    Fashionista
+                  </span>
+                </div>
+                <div class="gii-thiu-nav">
+                  <button class="gii-thiu-button3">
+                    <span
+                      class="gii-thiu-text86 tweetIcy-86221091.figma.siteSemanticButton"
+                    >
+                      Trang chủ
+                    </span>
+                  </button>
+                  <button class="gii-thiu-button4">
+                    <span
+                      class="gii-thiu-text87 tweetIcy-86221091.figma.siteSemanticButton"
+                    >
+                      Cửa hàng
+                    </span>
+                  </button>
+                  <button class="gii-thiu-button5">
+                    <span
+                      class="gii-thiu-text88 tweetIcy-86221091.figma.siteSemanticButton"
+                    >
+                      Giới thiệu
+                    </span>
+                  </button>
+                  <button class="gii-thiu-button6">
+                    <span
+                      class="gii-thiu-text89 tweetIcy-86221091.figma.siteSemanticButton"
+                    >
+                      Liên hệ
+                    </span>
+                  </button>
+                </div>
+                <div class="gii-thiu-container49">
+                  <button class="gii-thiu-button7">
+                    <img
+                      src="public/component12679-hi4u.svg"
+                      alt="Component12679"
+                      class="gii-thiu-component18"
+                    />
+                  </button>
+                  <button class="gii-thiu-button8">
+                    <img
+                      src="public/component12679-m3bd.svg"
+                      alt="Component12679"
+                      class="gii-thiu-component19"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="https://play.teleporthq.io/signup" class="gii-thiu-link">
+          <div aria-label="Sign up to TeleportHQ" class="gii-thiu-container50">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 19 21"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="gii-thiu-icon1"
+            >
+              <path
+                d="M9.1017 4.64355H2.17867C0.711684 4.64355 -0.477539 5.79975 -0.477539 7.22599V13.9567C-0.477539 15.3829 0.711684 16.5391 2.17867 16.5391H9.1017C10.5687 16.5391 11.7579 15.3829 11.7579 13.9567V7.22599C11.7579 5.79975 10.5687 4.64355 9.1017 4.64355Z"
+                fill="#B23ADE"
+              ></path>
+              <path
+                d="M10.9733 12.7878C14.4208 12.7878 17.2156 10.0706 17.2156 6.71886C17.2156 3.3671 14.4208 0.649963 10.9733 0.649963C7.52573 0.649963 4.73096 3.3671 4.73096 6.71886C4.73096 10.0706 7.52573 12.7878 10.9733 12.7878Z"
+                fill="#FF5C5C"
+              ></path>
+              <path
+                d="M17.7373 13.3654C19.1497 14.1588 19.1497 15.4634 17.7373 16.2493L10.0865 20.5387C8.67402 21.332 7.51855 20.6836 7.51855 19.0968V10.5141C7.51855 8.92916 8.67402 8.2807 10.0865 9.07221L17.7373 13.3654Z"
+                fill="#2874DE"
+              ></path>
+            </svg>
+            <span class="gii-thiu-text90">Built in TeleportHQ</span>
+          </div>
+        </a>
+      </div>
+      <link
+        rel="canonical"
+        href="https://shop-quan-ao-desktop-ia3zsr.teleporthq.app/gii-thiu"
+      />
+    </div>
+  </body>
+</html>

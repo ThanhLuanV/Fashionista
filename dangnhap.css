@@ -1,0 +1,872 @@
+.ng-nhp-container10 {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.ng-nhp-framengnhp {
+  width: 100%;
+  height: 1152px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.ng-nhp-main {
+  top: 0px;
+  left: 0px;
+  width: 1920px;
+  display: flex;
+  padding: 250px 32px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+  background-color: rgba(248, 250, 251, 1);
+}
+ 
+.ng-nhp-container11 {
+  gap: 32px;
+  width: 1152px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+ 
+.ng-nhp-background-shadow {
+  width: 560px;
+  height: 686px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10000000149011612) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.ng-nhp-container12 {
+  gap: 8px;
+  top: 48px;
+  left: 48px;
+  width: 464px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.ng-nhp-heading1 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.ng-nhp-text10 {
+  color: rgba(10, 10, 10, 1);
+  height: auto;
+  font-size: 23.100000381469727px;
+  align-self: stretch;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 36px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.ng-nhp-container13 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.ng-nhp-text11 {
+  color: rgba(73, 85, 101, 1);
+  height: auto;
+  font-size: 15px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.ng-nhp-form {
+  gap: 24px;
+  top: 148px;
+  left: 48px;
+  width: 464px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.ng-nhp-container14 {
+  gap: 8px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.ng-nhp-label1 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.ng-nhp-text12 {
+  color: rgba(10, 10, 10, 1);
+  height: auto;
+  font-size: 15.100000381469727px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.ng-nhp-container15 {
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.ng-nhp-input1 {
+  display: flex;
+  padding: 13px 16px 14px 48px;
+  overflow: hidden;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(229, 231, 235, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  justify-content: center;
+}
+ 
+.ng-nhp-container16 {
+  width: 398px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.ng-nhp-text13 {
+  color: rgba(10, 10, 10, 0.5);
+  height: auto;
+  font-size: 15.100000381469727px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.ng-nhp-component11 {
+  top: 13.5px;
+  left: 16px;
+  width: 20px;
+  height: 20px;
+  z-index: 1;
+  position: absolute;
+}
+ 
+.ng-nhp-container17 {
+  gap: 8px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.ng-nhp-label2 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.ng-nhp-text14 {
+  color: rgba(10, 10, 10, 1);
+  height: auto;
+  font-size: 15.100000381469727px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.ng-nhp-container18 {
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.ng-nhp-input2 {
+  width: 464px;
+  height: 50px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-self: stretch;
+  align-items: flex-start;
+  border-color: rgba(229, 231, 235, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+}
+ 
+.ng-nhp-container19 {
+  top: 14px;
+  left: 49px;
+  width: 398px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.ng-nhp-text15 {
+  color: rgba(10, 10, 10, 0.5);
+  height: auto;
+  font-size: 15.100000381469727px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.ng-nhp-container20 {
+  top: 13px;
+  left: 49px;
+  width: 398px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+ 
+.ng-nhp-container21 {
+  width: 398px;
+  height: 24px;
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.ng-nhp-component12 {
+  top: 15px;
+  left: 16px;
+  width: 20px;
+  height: 20px;
+  z-index: 1;
+  position: absolute;
+}
+ 
+.ng-nhp-container22 {
+  gap: 187.5500030517578px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+ 
+.ng-nhp-label3 {
+  display: flex;
+  align-items: center;
+}
+ 
+.ng-nhp-input3 {
+  width: 16px;
+  height: 16px;
+  border-color: rgba(118, 118, 118, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2.5px;
+}
+ 
+.ng-nhp-margin {
+  display: flex;
+  padding: 0 0 0 8px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.ng-nhp-text16 {
+  color: rgba(53, 65, 82, 1);
+  height: auto;
+  font-size: 15.300000190734863px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.ng-nhp-button10 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.ng-nhp-text17 {
+  color: rgba(212, 133, 133, 1);
+  height: auto;
+  font-size: 15.100000381469727px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.ng-nhp-button11 {
+  display: flex;
+  padding: 16px 0;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 33554400px;
+  justify-content: center;
+  background-color: rgba(212, 133, 133, 1);
+}
+ 
+.ng-nhp-text18 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  flex-grow: 1;
+  font-size: 15.100000381469727px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.ng-nhp-container23 {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  justify-content: center;
+}
+ 
+.ng-nhp-text19 {
+  color: rgba(73, 85, 101, 1);
+  height: auto;
+  font-size: 15.300000190734863px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.ng-nhp-button12 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.ng-nhp-text20 {
+  color: rgba(212, 133, 133, 1);
+  height: auto;
+  font-size: 15.300000190734863px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.ng-nhp-container24 {
+  top: 544px;
+  left: 48px;
+  width: 464px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.ng-nhp-horizontal-divider1 {
+  width: auto;
+  height: 1px;
+  flex-grow: 1;
+  border-color: rgba(229, 231, 235, 1);
+}
+ 
+.ng-nhp-container25 {
+  display: flex;
+  padding: 0 16px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.ng-nhp-text21 {
+  color: rgba(105, 114, 130, 1);
+  height: auto;
+  font-size: 13.199999809265137px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.ng-nhp-horizontal-divider2 {
+  width: auto;
+  height: 1px;
+  flex-grow: 1;
+  border-color: rgba(229, 231, 235, 1);
+}
+ 
+.ng-nhp-container26 {
+  gap: 16px;
+  top: 588px;
+  left: 48px;
+  width: 464px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.ng-nhp-button13 {
+  gap: 8px;
+  display: flex;
+  padding: 12px 71.30999755859375px 12px 71.30000305175781px;
+  align-items: center;
+  border-color: rgba(208, 213, 219, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 33554400px;
+  justify-content: center;
+}
+ 
+.ng-nhp-component13 {
+  width: 20px;
+  height: 20px;
+}
+ 
+.ng-nhp-text22 {
+  color: rgba(10, 10, 10, 1);
+  height: auto;
+  font-size: 15.300000190734863px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.ng-nhp-button14 {
+  gap: 8px;
+  display: flex;
+  padding: 12px 63.36000061035156px;
+  align-items: center;
+  border-color: rgba(208, 213, 219, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 33554400px;
+  justify-content: center;
+}
+ 
+.ng-nhp-component14 {
+  width: 20px;
+  height: 20px;
+}
+ 
+.ng-nhp-text23 {
+  color: rgba(10, 10, 10, 1);
+  height: auto;
+  font-size: 14.5px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.ng-nhp-overlay-shadow {
+  width: 560px;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.10000000149011612) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 16px;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.0020000000949949026);
+}
+ 
+.ng-nhp-fashion {
+  width: 560px;
+  height: 700px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-self: stretch;
+  align-items: flex-start;
+  background-size: cover;
+  background-image: url("public/tq_boiiqskwik-75sk-600w.png");
+}
+ 
+.ng-nhp-header1 {
+  top: 0px;
+  left: 0px;
+  width: 1920px;
+  display: flex;
+  padding: 0 352px;
+  overflow: hidden;
+  position: absolute;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10000000149011612) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  background-color: var(--dl-color-tweet-icy-86221091.figma.site-white);
+}
+ 
+.ng-nhp-container27 {
+  gap: 320.5px;
+  display: flex;
+  padding: 0 0.019999999552965164px 0 0;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.ng-nhp-container28 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.ng-nhp-text24 {
+  color: rgba(212, 133, 133, 1);
+  height: auto;
+  text-align: left;
+  line-height: 36px;
+}
+ 
+.ng-nhp-nav1 {
+  gap: 32px;
+  display: flex;
+  align-items: center;
+}
+ 
+.ng-nhp-button15 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.ng-nhp-text25 {
+  color: rgba(54, 65, 83, 1);
+  height: auto;
+  text-align: center;
+  line-height: 24px;
+}
+ 
+.ng-nhp-button16 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.ng-nhp-text26 {
+  color: rgba(53, 65, 82, 1);
+  height: auto;
+  text-align: center;
+  line-height: 24px;
+}
+ 
+.ng-nhp-button17 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.ng-nhp-text27 {
+  color: var(--dl-color-tweet-icy-86221091.figma.site-oxfordblue);
+  height: auto;
+  text-align: center;
+  line-height: 24px;
+}
+ 
+.ng-nhp-button18 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.ng-nhp-text28 {
+  color: var(--dl-color-tweet-icy-86221091.figma.site-oxfordblue);
+  height: auto;
+  text-align: center;
+  line-height: 24px;
+}
+ 
+.ng-nhp-container29 {
+  gap: 16px;
+  display: flex;
+  align-items: center;
+}
+ 
+.ng-nhp-button19 {
+  display: flex;
+  padding: 8px;
+  align-items: flex-start;
+  border-radius: 33554400px;
+  flex-direction: column;
+}
+ 
+.ng-nhp-component15 {
+  width: 24px;
+  height: 24px;
+}
+ 
+.ng-nhp-button20 {
+  display: flex;
+  padding: 8px;
+  align-items: flex-start;
+  border-radius: 33554400px;
+  flex-direction: column;
+}
+ 
+.ng-nhp-component16 {
+  width: 24px;
+  height: 24px;
+}
+ 
+.ng-nhp-header2 {
+  top: 0px;
+  left: 0px;
+  width: 1920px;
+  display: flex;
+  padding: 0 352px;
+  overflow: hidden;
+  position: absolute;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10000000149011612) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  background-color: var(--dl-color-tweet-icy-86221091.figma.site-white);
+}
+ 
+.ng-nhp-container30 {
+  gap: 320.5px;
+  display: flex;
+  padding: 0 0.019999999552965164px 0 0;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.ng-nhp-container31 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.ng-nhp-text29 {
+  color: rgba(212, 133, 133, 1);
+  height: auto;
+  text-align: left;
+  line-height: 36px;
+}
+ 
+.ng-nhp-nav2 {
+  gap: 32px;
+  display: flex;
+  align-items: center;
+}
+ 
+.ng-nhp-button21 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.ng-nhp-text30 {
+  color: rgba(54, 65, 83, 1);
+  height: auto;
+  text-align: center;
+  line-height: 24px;
+}
+ 
+.ng-nhp-button22 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.ng-nhp-text31 {
+  color: rgba(53, 65, 82, 1);
+  height: auto;
+  text-align: center;
+  line-height: 24px;
+}
+ 
+.ng-nhp-button23 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.ng-nhp-text32 {
+  color: var(--dl-color-tweet-icy-86221091.figma.site-oxfordblue);
+  height: auto;
+  text-align: center;
+  line-height: 24px;
+}
+ 
+.ng-nhp-button24 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.ng-nhp-text33 {
+  color: var(--dl-color-tweet-icy-86221091.figma.site-oxfordblue);
+  height: auto;
+  text-align: center;
+  line-height: 24px;
+}
+ 
+.ng-nhp-container32 {
+  gap: 16px;
+  display: flex;
+  align-items: center;
+}
+ 
+.ng-nhp-button25 {
+  display: flex;
+  padding: 8px;
+  align-items: flex-start;
+  border-radius: 33554400px;
+  flex-direction: column;
+}
+ 
+.ng-nhp-component17 {
+  width: 24px;
+  height: 24px;
+}
+ 
+.ng-nhp-button26 {
+  display: flex;
+  padding: 8px;
+  align-items: flex-start;
+  border-radius: 33554400px;
+  flex-direction: column;
+}
+ 
+.ng-nhp-component18 {
+  width: 24px;
+  height: 24px;
+}
+ 
+.ng-nhp-link {
+  display: contents;
+}
+ 
+.ng-nhp-container33 {
+  right: 50px;
+  border: 1px solid #ffffff5c;
+  bottom: 30px;
+  display: flex;
+  z-index: 22;
+  position: fixed;
+  box-shadow: 5px 5px 10px 0px rgba(31, 31, 31, 0.4);
+  min-height: auto;
+  align-items: center;
+  padding-top: 8px;
+  padding-left: 12px;
+  border-radius: 8px;
+  padding-right: 12px;
+  padding-bottom: 8px;
+  backdrop-filter: blur(6px);
+  background-color: rgba(41, 41, 41, 0.41);
+}
+ 
+.ng-nhp-icon1 {
+  width: 24px;
+  margin-right: 4px;
+}
+ 
+.ng-nhp-text34 {
+  color: white;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
